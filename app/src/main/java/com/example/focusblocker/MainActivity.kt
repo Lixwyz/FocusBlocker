@@ -623,7 +623,7 @@ fun AppSelectionModal(
                 fontSize = 11.sp
             )
 
-            HorizontalDivider(
+            Divider(
                 color = Color.White.copy(alpha = 0.15f),
                 modifier = Modifier.padding(vertical = 12.dp)
             )
@@ -948,7 +948,7 @@ fun AppListCard(
             fontSize = 10.sp
         )
 
-        HorizontalDivider(
+        Divider(
             color = cardBorderColor,
             modifier = Modifier.padding(vertical = 10.dp)
         )
